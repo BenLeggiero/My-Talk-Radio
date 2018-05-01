@@ -1,6 +1,14 @@
 package org.bh.app.talkRadio
 
+import LatteFX.*
+import org.bh.app.talkRadio.ui.*
+
 /**
- * @author ben
- * @since 4/30/18.
+ * @author Ben Leggiero
+ * @since 2018-04-30
  */
+
+class Main : LatteFXMain({ commandLineArguments, primaryWindow ->
+    primaryWindow?.contentWrapper = MyTalkRadioContentWrapper()
+    primaryWindow?.show()
+})
