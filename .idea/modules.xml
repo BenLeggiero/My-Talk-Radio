@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/Blue-Base/Blue Base Core.iml" filepath="$PROJECT_DIR$/lib/Blue-Base/Blue Base Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/Blue-Base-JVM/Blue Base/Blue Base JVM.iml" filepath="$PROJECT_DIR$/lib/Blue-Base-JVM/Blue Base/Blue Base JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/Husky-IO/JVM/Husky IO.iml" filepath="$PROJECT_DIR$/lib/Husky-IO/JVM/Husky IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/Husky-UI/Husky UI Core.iml" filepath="$PROJECT_DIR$/lib/Husky-UI/Husky UI Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/Husky-UI-JVM/Husky UI JVM/Husky UI JVM.iml" filepath="$PROJECT_DIR$/lib/Husky-UI-JVM/Husky UI JVM/Husky UI JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My-Talk-Radio.iml" filepath="$PROJECT_DIR$/.idea/My-Talk-Radio.iml" />
     </modules>
   </component>
