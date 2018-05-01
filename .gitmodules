@@ -13,3 +13,6 @@
 [submodule "lib/Blue-Base-JVM"]
 	path = lib/Blue-Base-JVM
 	url = https://github.com/BlueHuskyStudios/Blue-Base-JVM.git
+[submodule "lib/LatteFX"]
+	path = lib/LatteFX
+	url = https://github.com/BlueHuskyStudios/LatteFX.git
