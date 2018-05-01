@@ -10,3 +10,6 @@
 [submodule "lib/Husky-UI-JVM"]
 	path = lib/Husky-UI-JVM
 	url = https://github.com/BlueHuskyStudios/Husky-UI-JVM.git
+[submodule "lib/Blue-Base-JVM"]
+	path = lib/Blue-Base-JVM
+	url = https://github.com/BlueHuskyStudios/Blue-Base-JVM.git
