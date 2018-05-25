@@ -14,7 +14,6 @@ class Main : LatteFXMain(
         appInfo = MyTalkRadioInfo,
         appConfig = MyTalkRadioConfig,
         onStart = { _, primaryWindow ->
-    primaryWindow?.contentWrapper = MyTalkRadioContentWrapper()
     primaryWindow?.show()
 })
 
