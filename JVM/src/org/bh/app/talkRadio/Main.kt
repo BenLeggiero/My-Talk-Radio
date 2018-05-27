@@ -1,9 +1,8 @@
 package org.bh.app.talkRadio
 
 import LatteFX.*
-import javafx.scene.*
+import LatteFX.PaneOrGroup.*
 import org.bh.app.talkRadio.ui.*
-import java.beans.*
 
 /**
  * @author Ben Leggiero
@@ -27,6 +26,6 @@ public object MyTalkRadioInfo: LatteAppInfo {
 
 private object MyTalkRadioConfig: LatteAppConfig {
     override val automaticallySetUpSystemMenuBar = true
-    override val primaryGroup = LatteGroup.main
+    override val primaryParent = group.main
     override val startingWrapperGenerator = { MyTalkRadioContentWrapper() }
 }
