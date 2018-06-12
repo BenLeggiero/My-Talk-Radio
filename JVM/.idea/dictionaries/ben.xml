@@ -2,6 +2,8 @@
   <dictionary name="ben">
     <words>
       <w>bézier</w>
+      <w>frac</w>
+      <w>iterable</w>
     </words>
   </dictionary>
 </component>
