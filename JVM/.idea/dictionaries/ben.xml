@@ -4,6 +4,11 @@
       <w>bézier</w>
       <w>frac</w>
       <w>iterable</w>
+      <w>pseudorandom</w>
+      <w>resized</w>
+      <w>xmax</w>
+      <w>xmid</w>
+      <w>xmin</w>
     </words>
   </dictionary>
 </component>
