@@ -26,6 +26,7 @@ public object MyTalkRadioInfo: LatteAppInfo {
 
 private object MyTalkRadioConfig: LatteAppConfig {
     override val automaticallySetUpSystemMenuBar = true
+    override val automaticallyGeneratePrimaryWindow = true
     override val primaryParent = group.main
     override val startingWrapperGenerator = { MyTalkRadioContentWrapper() }
 }
