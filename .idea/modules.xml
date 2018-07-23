@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/lib/Blue-Base/Blue Base Core.iml" filepath="$PROJECT_DIR$/lib/Blue-Base/Blue Base Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/Blue-Base-JVM/Blue Base/Blue Base JVM.iml" filepath="$PROJECT_DIR$/lib/Blue-Base-JVM/Blue Base/Blue Base JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/Husky-IO/JVM/Husky IO.iml" filepath="$PROJECT_DIR$/lib/Husky-IO/JVM/Husky IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/Husky-IO/JVM/Husky IO.iml" filepath="$PROJECT_DIR$/lib/Husky-IO/JVM/Husky IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/Husky-UI/Husky UI Core.iml" filepath="$PROJECT_DIR$/lib/Husky-UI/Husky UI Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/Husky-UI-JVM/Husky UI JVM/Husky UI JVM.iml" filepath="$PROJECT_DIR$/lib/Husky-UI-JVM/Husky UI JVM/Husky UI JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/LatteFX/LatteFX.iml" filepath="$PROJECT_DIR$/lib/LatteFX/LatteFX.iml" />

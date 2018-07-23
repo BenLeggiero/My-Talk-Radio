@@ -18,7 +18,7 @@ class Main : LatteFXMain(
 
 
 
-public object MyTalkRadioInfo: LatteAppInfo {
+object MyTalkRadioInfo: LatteAppInfo {
     override val appName = "My Talk Radio"
 }
 

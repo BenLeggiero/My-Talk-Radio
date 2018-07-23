@@ -9,7 +9,7 @@ import java.util.*
  * @author Ben Leggiero
  * @since 2018-06-26
  */
-class Media
+class MediaItem
 (
         val id: UUID,
         val title: String,
