@@ -2,6 +2,10 @@ package org.bh.app.talkRadio.struct
 
 
 
+import org.bh.tools.io.databases.exposed.ExposedDB
+
+
+
 /**
  * @author Ben
  * @since 2018-07-22
@@ -23,6 +27,7 @@ open class AutoPlaylist(var rules: List<MediaItemSelectionRule>): Playlist {
 
 
     private fun generateItems(): List<MediaItem> {
+        ExposedDB()
         TODO("not implemented")
     }
 }
