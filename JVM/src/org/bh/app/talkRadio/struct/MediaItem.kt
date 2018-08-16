@@ -17,17 +17,16 @@ class MediaItem
         val source: Source,
 
         val rating: Fraction,
-        val otherData: Map<String, Any>
+        val playCount: Integer,
+        val otherData: Map<String, Serializable>
 )
 {
 
 
-
-
-    sealed class Genre {
-        object music: Genre()
-        object podcast: Genre()
-        class other(val stringValue: String): Genre()
+    sealed class Genre(val serialName: String) {
+        object genericMusic: Genre(serialName = "genericMusic")
+        object podcast: Genre(serialName = "podcast")
+        class other(val stringValue: String): Genre(serialName = stringValue)
     }
 
 
@@ -35,6 +34,5 @@ class MediaItem
     sealed class Source {
         class file(val file: File)
         class url(val url: URL)
-        class stream(val stream: InputStream)
     }
 }
