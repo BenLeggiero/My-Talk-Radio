@@ -2,12 +2,10 @@ package org.bh.app.talkRadio.struct
 
 
 
-import com.sun.org.apache.xpath.internal.operations.*
 import org.bh.app.talkRadio.struct.ComputingDifficulty.*
 import org.bh.tools.base.abstraction.*
 import org.bh.tools.base.collections.extensions.*
 import org.bh.tools.base.math.*
-import org.bh.tools.base.math.ComparisonResult.Companion
 import org.bh.tools.base.math.geometry.*
 import org.bh.tools.base.util.*
 import org.bh.tools.io.databases.exposed.ExposedDB
@@ -183,13 +181,11 @@ class PodcastShowAutoPlaylist(val podcastShowName: String) : AutoPlaylist(listOf
         @Suppress("UnnecessaryVariable")
         val possibleEpisode = since
         val allEpisodesSorted = this.allEpisodes.sortedByReleaseDate()
-        val episodeIndex = allEpisodesSorted.indexOrNull(of= possibleEpisode) ?: return null
 
         // if it's already sorted, assuming we're up-to-date, the index is the same as the number of episodes since the
         // latest, which would be `0` if this is the latest.
-        return episodeIndex
+        return allEpisodesSorted.indexOrNull(of= possibleEpisode)
     }
-
 }
 
 
